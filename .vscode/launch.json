@@ -1,0 +1,53 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ProducerAndConsumer",
+            "request": "launch",
+            "mainClass": "concurrency.ProducerAndConsumer",
+            "projectName": "multithreading-and-parallel-computing-in-java"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - WaitAndNotifyApp",
+            "request": "launch",
+            "mainClass": "concurrency.WaitAndNotifyApp",
+            "projectName": "multithreading-and-parallel-computing-in-java"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SynchronizedBlocksApp",
+            "request": "launch",
+            "mainClass": "concurrency.SynchronizedBlocksApp",
+            "projectName": "multithreading-and-parallel-computing-in-java"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - JoinApp",
+            "request": "launch",
+            "mainClass": "concurrency.JoinApp",
+            "projectName": "multithreading-and-parallel-computing-in-java"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ThreadApp",
+            "request": "launch",
+            "mainClass": "concurrency.ThreadApp",
+            "projectName": "multithreading-and-parallel-computing-in-java"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SynchronizedApp",
+            "request": "launch",
+            "mainClass": "concurrency.SynchronizedApp",
+            "projectName": "multithreading-and-parallel-computing-in-java"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
+            "mainClass": "app.App",
+            "projectName": "multithreading-and-parallel-computing-in-java"
+        }
+    ]
+}
