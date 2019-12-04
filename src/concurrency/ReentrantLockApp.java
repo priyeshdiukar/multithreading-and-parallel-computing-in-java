@@ -24,7 +24,9 @@ public class ReentrantLockApp {
             for (int i = 0; i < 10000; i++) {
                 counter++;
             }
-        } finally {
+        } 
+        /* To prevent thread starvation. A good practise. */
+        finally {
             lock.unlock();
         }
     }
