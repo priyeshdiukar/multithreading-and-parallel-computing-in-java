@@ -19,8 +19,7 @@ class ListProcessor {
                     lock.wait();
                 } else {
                     System.out.println("Adding :" + value);
-                    list.add(value);
-                    value++;
+                    list.add(++value);
                     lock.notify();
                 }
                 Thread.sleep(500);
