@@ -20,6 +20,13 @@ class ListProcessor {
                 } else {
                     System.out.println("Adding :" + value);
                     list.add(++value);
+                    /* 
+                        In this case, notify does not relinquish the control of this thread because
+                        it is in a while loop. The while loop ends when list.size() == LIMIT.
+                        Since notify is was invoked before wait and wait also happens to be the
+                        last statement to break the loop.
+                        Only after this last statement will the control be passed to other thread.     
+                    */
                     lock.notify();
                 }
                 Thread.sleep(500);
