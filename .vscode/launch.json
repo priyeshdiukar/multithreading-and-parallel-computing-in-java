@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - CallableAndFuture",
+            "request": "launch",
+            "mainClass": "concurrency.CallableAndFuture",
+            "projectName": "multithreading-and-parallel-computing-in-java_5439d938"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ExecutorApp",
             "request": "launch",
             "mainClass": "concurrency.ExecutorApp",

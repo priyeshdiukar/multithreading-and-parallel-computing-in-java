@@ -46,6 +46,7 @@ public class ExecutorApp {
         for (int i = 0; i < 5; i++) {
            executorService.submit(new ExecutorWorker());
         }
+        executorService.shutdown();
     }
 
 }

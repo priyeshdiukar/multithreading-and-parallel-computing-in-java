@@ -50,6 +50,6 @@ public class SemphoreApp {
                 }
             });
         }
-
+        executorService.shutdown();
     }
 }
