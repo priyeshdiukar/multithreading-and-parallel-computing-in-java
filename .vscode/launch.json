@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ProducerConsumerReentrantLockApp",
+            "request": "launch",
+            "mainClass": "concurrency.ProducerConsumerReentrantLockApp",
+            "projectName": "multithreading-and-parallel-computing-in-java_5439d938"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ReentrantLockApp",
+            "request": "launch",
+            "mainClass": "concurrency.ReentrantLockApp",
+            "projectName": "multithreading-and-parallel-computing-in-java_5439d938"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ProducerAndConsumer",
             "request": "launch",
             "mainClass": "concurrency.ProducerAndConsumer",
